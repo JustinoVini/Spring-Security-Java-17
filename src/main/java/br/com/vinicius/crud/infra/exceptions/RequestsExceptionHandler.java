@@ -1,4 +1,4 @@
-package br.com.vinicius.crud.infra;
+package br.com.vinicius.crud.infra.exceptions;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.vinicius.crud.domain.product.Product;
-import br.com.vinicius.crud.domain.product.ProductRepository;
-import br.com.vinicius.crud.domain.product.RequestProduct;
+import br.com.vinicius.crud.domain.models.Product;
+import br.com.vinicius.crud.domain.payload.RequestProduct;
+import br.com.vinicius.crud.domain.repositories.ProductRepository;
 import jakarta.persistence.EntityNotFoundException;
 import jakarta.validation.Valid;
 

@@ -1,7 +1,8 @@
-package br.com.vinicius.crud.domain.product;
+package br.com.vinicius.crud.domain.models;
 
 import org.hibernate.annotations.GenericGenerator;
 
+import br.com.vinicius.crud.domain.payload.RequestProduct;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;

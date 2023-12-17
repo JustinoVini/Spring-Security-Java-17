@@ -1,4 +1,4 @@
-package br.com.vinicius.crud.infra;
+package br.com.vinicius.crud.infra.exceptions;
 
 public class ExceptionDTO {
 
