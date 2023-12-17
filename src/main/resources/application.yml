@@ -1,0 +1,14 @@
+spring:
+  flyway:
+    baselineOnMigrate: true
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/crud-spring?createDatabaseIfNotExist=true&useSSL=false
+    password: 569038
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  servlet:
+    context-path: /api
